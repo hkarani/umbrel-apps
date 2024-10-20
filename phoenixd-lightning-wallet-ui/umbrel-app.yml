@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: phoenixd-lightning-wallet-ui
+category: finance
+name: Phoenixd Lightning Wallet UI
+version: "0.1.1"
+tagline: A lightning wallet for Phoenix Server(phoenixd)
+description: >-
+  This project is a Lightning wallet interface built on top of Phoenixd server(https://phoenix.acinq.co/server/ designed for Umbrel server. 
+  
+  Let's you easily manage your phoenixd transactions and leverage the power of Phoenixd for your Bitcoin Lightning wallet needs.
+releaseNotes: >-
+  - Send & Receive functionality for BOLT11 and BOLT12 
+  - Add and pay contacts
+  - View transactions history table
+  - QR code for payments, contacts and offers
+developer: Hezron Karani
+website: "https://zaprite.com/"
+dependencies:
+  - phoenixd
+repo: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git
+support: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git/discussions
+port: 3000
+gallery:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Zaprite
+submission: 
